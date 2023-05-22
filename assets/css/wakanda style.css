@@ -1,0 +1,8 @@
+.FOND {
+    background-image: url('../image/wakanda/Pantherwakanda1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 0;
+    height: 50vw;
+    right: 100px;
+}

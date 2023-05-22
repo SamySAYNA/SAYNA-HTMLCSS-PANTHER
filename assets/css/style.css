@@ -1,0 +1,62 @@
+/* global */
+
+@media(max-width:768px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+main {
+    margin-bottom: 0;
+}
+
+footer {
+    margin-bottom: 0;
+}
+
+@media(max-width:768px) {
+    p {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@font-face {
+    font-family: BEYNO Regular;
+    src: url(../fonts/BEYNO/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: Panthera Regular;
+    src: url(../fonts/Panthera/PantheraRegular-MVZ9J.ttf);
+}
+
+h1 {
+    font-family: Panthera Regular;
+}
+
+@font-face {
+    font-family: Cantarell Regular;
+    src: url(../fonts/Cantarell/Cantarell-Regular.ttf);
+}
+
+h2 {
+    font-family: BEYNO Regular;
+}
+
+p {
+    font-family: Cantarell Regular;
+    font-size: 1.1em;
+}
+
+body {
+    background-image: url('../image/all/arrière_plan.png');
+    background-repeat: no-repeat;
+    color: white;
+    padding: 15vh;
+}
+
+
+/* MENU */

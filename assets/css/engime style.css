@@ -1,0 +1,85 @@
+@font-face {
+    font-family: BEYNO Regular;
+    src: url(../fonts/BEYNO/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: Panthera Regular;
+    src: url(../fonts/Panthera/PantheraRegular-MVZ9J.ttf);
+}
+
+h1 {
+    font-family: Panthera Regular;
+}
+
+@font-face {
+    font-family: Cantarell Regular;
+    src: url(../fonts/Cantarell/Cantarell-Regular.ttf);
+}
+
+h2 {
+    font-family: BEYNO Regular;
+}
+
+p {
+    font-family: Cantarell Regular;
+    font-size: 10px;
+}
+
+.arriere2 {
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    height: 15vw;
+}
+
+body {
+    background-image: url('../image/all/arrière_plan.png');
+    background-repeat: no-repeat;
+    color: white;
+    padding: 13%;
+    margin: 13%;
+}
+
+
+/* grid en vertical */
+
+.G1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.item {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.MOBILE {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+}
+
+
+/* footer */
+
+.CONTENAIRE {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    background-image: url('../image/accueil/Pantherhome7.png');
+    color: white;
+    background-color: blue;
+}
+
+.subgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.subgrid-item {
+    padding-left: 35px;
+}
