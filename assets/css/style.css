@@ -55,6 +55,7 @@ body {
     background-image: url('../image/all/arrière_plan.png');
     background-repeat: no-repeat;
     color: white;
+    background-size: cover;
     padding: 15vh;
 }
 

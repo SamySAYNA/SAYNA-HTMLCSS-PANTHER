@@ -6,6 +6,100 @@
     height: 50vw;
 }
 
+.T1 {
+    font-size: 12px;
+}
+
+
+/* TETE */
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+.LOGO1 {
+    color: #FFFFFF;
+}
+
+.bordure {
+    position: fixed;
+    height: 60vh;
+    left: 60px;
+    border-left: 5px white;
+    /*animation fade in*/
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: fade-in 1s forwards;
+}
+
+body .bordure1 {
+    height: 40vh;
+    left: 90px;
+    border-left: 5px solid white;
+    position: fixed;
+    /*animation fade in*/
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: fade-in 1s forwards;
+}
+
+body .iconBordure1 {
+    position: fixed;
+    left: 80px;
+    top: 370px;
+    margin-top: 15px;
+    /*animation fade in*/
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: fade-in 1s forwards;
+}
+
+.iconBordure1:hover {
+    filter: invert(64%) sepia(25%) saturate(347%) hue-rotate(219deg) brightness(90%) contrast(86%);
+}
+
+body .iconBordure2 {
+    position: fixed;
+    left: 80px;
+    top: 435px;
+    /*animation fade in*/
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: fade-in 1s forwards;
+}
+
+.iconBordure2:hover {
+    filter: invert(100%) sepia(12%) saturate(99%) hue-rotate(241deg) brightness(110%) contrast(101%);
+}
+
+body .iconBordure3 {
+    position: fixed;
+    left: 80px;
+    top: 485px;
+}
+
+.iconBordure3:hover {
+    filter: invert(64%) sepia(25%) saturate(347%) hue-rotate(219deg) brightness(90%) contrast(86%);
+}
+
+body .iconBordure4 {
+    position: fixed;
+    left: 75px;
+    top: 535px;
+    /*animation fade in*/
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: fade-in 1s forwards;
+}
+
+.iconBordure4:hover {
+    filter: invert(64%) sepia(25%) saturate(347%) hue-rotate(219deg) brightness(90%) contrast(86%);
+}
+
 .LOGO1 {
     width: 100px;
     color: white;
@@ -51,9 +145,9 @@ aside {
 .contenaire {
     height: 10vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
-    grid-gap: 15px;
+    grid-gap: 8vh;
 }
 
 
@@ -132,11 +226,9 @@ span {
     background-repeat: no-repeat;
     text-align: center;
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    padding-left: 500px;
-    margin-bottom: 100px;
 }
 
 .grid-item {
@@ -145,7 +237,6 @@ span {
 }
 
 .div {
-    padding-top: 100px;
     margin-top: 500px;
     background-image: linear-gradient(#FFFFFF, transparent);
     border-radius: 25%;
@@ -194,6 +285,10 @@ button {
     font-size: 25px;
 }
 
+.reguler {
+    height: 45vh;
+}
+
 
 /* footer */
 
@@ -214,5 +309,9 @@ button {
 }
 
 .subgrid-item {
-    padding-left: 35px;
+    padding-left: 15px;
+}
+
+img.COL1 {
+    color: #DF99F2;
 }
