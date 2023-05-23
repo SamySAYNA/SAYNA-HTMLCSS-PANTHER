@@ -17,6 +17,11 @@ h1 {
     src: url(../fonts/Cantarell/Cantarell-Regular.ttf);
 }
 
+@font-face {
+    font-family: wakandaForver Regular;
+    src: url(../fonts/wakanda_forever/WakandaForever-Regular.ttf);
+}
+
 h2 {
     font-family: BEYNO Regular;
 }
@@ -26,60 +31,97 @@ p {
     font-size: 10px;
 }
 
-.arriere2 {
-    background-position: 100% 0;
-    background-repeat: no-repeat;
-    height: 15vw;
-}
 
-body {
-    background-image: url('../image/all/arrière_plan.png');
-    background-repeat: no-repeat;
-    color: white;
-    padding: 13%;
-    margin: 13%;
-}
+/* tete */
 
-
-/* grid en vertical */
-
-.G1 {
+.header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-}
-
-.item {
-    border: 1px solid #000;
-    padding: 10px;
-}
-
-.MOBILE {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    left: 50%;
+    padding: 20px;
 }
 
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
 
-/* footer */
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
 
-.CONTENAIRE {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
-    background-image: url('../image/accueil/Pantherhome7.png');
+.navigation ul li {
+    margin-left: 20px;
+}
+
+.navigation ul li:first-child {
+    margin-left: 0;
+}
+
+.navigation ul li a {
+    text-decoration: none;
     color: white;
-    background-color: blue;
+    font-family: BEYNO Regular;
 }
 
-.subgrid {
+li {
+    color: #FFFFFF;
+}
+
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    /* Définit 3 colonnes égales */
     grid-gap: 10px;
+    background-image: url('../image/enigme/Pantherenigme1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vw;
+    /* Espacement entre les éléments */
 }
 
-.subgrid-item {
-    padding-left: 35px;
+.back {}
+
+
+/* .grid-item {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20%;
+} */
+
+.P {
+    padding-top: 200px;
+    padding-left: 100px;
+    float: right;
+    background-image: url('../image/enigme/Pantherenigme2.png');
+    background-repeat: no-repeat;
 }
+
+img {
+    float: right;
+}
+
+
+/* .img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
+
+
+/* .grid-item p {
+    margin-top: 50px;
+    position: relative;
+}
+
+.P {
+    margin-bottom: 100px;
+} */
