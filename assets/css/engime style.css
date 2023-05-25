@@ -84,8 +84,6 @@ li {
     /* Espacement entre les éléments */
 }
 
-.back {}
-
 
 /* .grid-item {
     text-align: center;
@@ -99,29 +97,55 @@ li {
     float: right;
     background-image: url('../image/enigme/Pantherenigme2.png');
     background-repeat: no-repeat;
+    /* font-size: 15px; */
+}
+
+#citation {
+    font-size: 50vw;
 }
 
 img {
     float: right;
 }
 
-
-/* .img {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    bottom: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-} */
-
-
-/* .grid-item p {
-    margin-top: 50px;
-    position: relative;
+@font-face {
+    font-family: WakandaForever-Regular;
+    src: url(../fonts/wakanda_forever/WakandaForever-Regular.ttf);
 }
 
-.P {
-    margin-bottom: 100px;
-} */
+.font {
+    font-family: WakandaForever-Regular;
+    font-size: 3vw;
+}
+
+span {
+    font-family: WakandaForever-Regular;
+    font-size: 2vw;
+}
+
+.BAS {
+    padding-top: 10%;
+}
+
+button[type="submit"] {
+    background-color: #F2CEF2;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8vw;
+    font-size: 16px;
+    right: 100px;
+}
+
+input {
+    border: 2px solid;
+    border-radius: 8vw;
+    padding: 8px;
+    border-color: #F2CEF2;
+    width: 25vw;
+    background-color: transparent;
+}
+
+.text p {
+    font-size: 14px;
+}
