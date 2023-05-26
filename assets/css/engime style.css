@@ -149,3 +149,52 @@ input {
 .text p {
     font-size: 14px;
 }
+
+
+/* FOOTER */
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10vw;
+    /* padding-bottom: 2vw; */
+    padding-top: 10vw;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+}
+
+.row {
+    display: flex;
+    grid-gap: 3px;
+}
+
+.cell {
+    border: 1px solid black;
+    padding-right: 2vw;
+}
+
+.esp {
+    padding-left: 1vw;
+}
+
+footer {
+    background-image: url('../image/all/back_footer.png');
+}
+
+.C {
+    padding-right: 2vw;
+}
+
+.image2 {
+    position: relative;
+    /* margin-right: 10%; */
+}
+
+.H4 {
+    padding-right: 2vw;
+    margin-right: 3vw;
+}
