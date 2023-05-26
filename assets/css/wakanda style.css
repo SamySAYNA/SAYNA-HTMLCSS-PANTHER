@@ -50,9 +50,6 @@ ul {
     padding-left: 25px;
 }
 
-
-/* footer */
-
 footer {
     background-image: url(../image/all/back_footer.png);
     background-position: center;
@@ -79,48 +76,4 @@ footer {
 
 .footer-left .img1 img {
     width: 18vw;
-}
-
-.footer-left .img2 {
-    position: absolute;
-    top: 8vw;
-    left: 4.5vw;
-    color: blue;
-}
-
-.footer-left .img2 img {
-    width: 8vw;
-}
-
-
-/* partie droite */
-
-.footer-droit {
-    display: grid;
-    grid-template-columns: 0.7fr 1fr;
-}
-
-footer h4 {
-    font-family: cantarell;
-    word-spacing: 1em;
-    letter-spacing: 5px;
-    line-height: 5;
-}
-
-footer p {
-    line-height: 2;
-}
-
-.footer-right ul {
-    list-style-type: none;
-    display: flex;
-    gap: 8%;
-}
-
-.footer-right ul img {
-    width: 2.5vw;
-}
-
-.copyright {
-    grid-column: span 2;
 }
