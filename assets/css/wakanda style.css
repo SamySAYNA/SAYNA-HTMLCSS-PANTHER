@@ -1,5 +1,21 @@
 /* en tete  */
 
+.GRAND {
+    font-size: 3vw;
+    /* padding-bottom: 18vw;
+    padding-left: 10vw; */
+}
+
+@font-face {
+    font-family: WakandaForever-Regular;
+    src: url(../fonts/wakanda_forever/WakandaForever-Regular.ttf);
+}
+
+.KEY {
+    font-family: WakandaForever-Regular;
+    font-size: 2vw;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
@@ -26,6 +42,9 @@ ul {
     text-decoration: none;
 }
 
+
+/* main */
+
 .picture {
     background-image: url('../image/wakanda/Pantherwakanda1.png');
     background-repeat: no-repeat;
@@ -35,20 +54,26 @@ ul {
 
 .text {
     text-align: left;
-    font-size: 12px;
-    padding-top: 50vh;
-    padding-left: 100px;
+    font-size: 16px;
+    padding-top: 15vw;
+    padding-left: 10vw;
 }
 
 .diviseur {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
+    background-image: url('../image/wakanda/Pantherwakanda2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .deuxieme-colone {
     padding-left: 25px;
 }
+
+
+/* FOOTER */
 
 footer {
     background-image: url(../image/all/back_footer.png);
@@ -60,20 +85,50 @@ footer {
     grid-template-columns: 0.9fr 1fr;
 }
 
-
-/* partie gauche */
-
-.footer-left {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 4.5%;
+.DIVIS2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 15vw;
+    /* padding-top: 25vw; */
 }
 
-.footer-left .img1 {
+
+/* col1 */
+
+.petite {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 8vw;
+}
+
+.row {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.FOOT1 {
     position: relative;
-    margin-right: 10%;
+    left: 6vw;
+    top: 1.5vw;
 }
 
-.footer-left .img1 img {
-    width: 18vw;
+.FOOT2 {
+    position: absolute;
+    bottom: 2vw;
+    margin-left: 7vw;
+    top: 10vw;
+}
+
+.petite ul {
+    list-style-type: none;
+    display: flex;
+    gap: 9%;
+}
+
+.zoom:hover {
+    transform: scale(1, 2);
+}
+
+a img:hover {
+    transform: scale(1, 2);
 }
